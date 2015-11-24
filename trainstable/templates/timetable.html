@@ -1,0 +1,27 @@
+{% if trains_list %}
+    <table style="width:100%">
+        <tr>
+            <td>
+                <p>From: {{station_from}}</p>
+                <p>To: {{station_to}}</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table style="width:100%">
+        <tr>
+            <td>Train #</td>
+            <td>Departure time</td>
+            <td>Arrival time</td>
+        </tr>
+        {% for route in trains_list %}
+        <tr>
+            <td>{{route.train.train_id}}</td>
+            <td>{{route.time_depart}}</td>
+            <td>{{route.time_arrive}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No available trains. We are so sorry! ;(</p>
+{% endif %}
