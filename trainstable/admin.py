@@ -3,8 +3,9 @@ from django.contrib import admin
 # Register your models here.
 
 
-from .models import TimeTable,Train,Station
+from .models import RouteStation,Train,Station,Route
 
-admin.site.register(TimeTable)
+admin.site.register(RouteStation)
 admin.site.register(Train)
 admin.site.register(Station)
+admin.site.register(Route)

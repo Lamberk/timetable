@@ -1,0 +1,61 @@
+{# Load the tag library #}
+{% load bootstrap3 %}
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<p style="padding-top:20px;"></p>
+{% if trains_list %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading clearfix">
+                        <h3 class="panel-title"><a href="{% url 'trainstable:station_detail' station_from.id %}">{{ station_from.station_name }}</a><i class="glyphicon glyphicon-menu-right"></i><a href="{% url 'trainstable:station_detail' station_to.id %}">{{station_to.station_name}}</a><span class="pull-right">{{ date }}</span></h3>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="info">
+                                <td>Train #</td>
+                                <td>Departure time</td>
+                                <td>Arrival time</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for route in trains_list %}
+                        <tr>
+                            <td><a href="{% url 'trainstable:train_detail' route.train.id %}">{{route.train.id}}</a></td>
+                            <td>{{route.time_depart}}</td>
+                            <td>{{route.time_arrive}}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3 class="panel-title">Have a nice trip!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-offset-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading clearfix">
+                        <h3 class="panel-title">No available trains. We are so sorry! ;(</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="trainstable/index/"><button type="submit" class="btn btn-info" title="">Try again!</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}

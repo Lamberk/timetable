@@ -1,0 +1,17 @@
+{# Load the tag library #}
+{% load bootstrap3 %}
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<p style="padding-top:20px;"></p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title"> {{station.station_name}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

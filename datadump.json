@@ -1,0 +1,292 @@
+[
+  {
+    "model": "trainstable.train",
+    "pk": 1,
+    "fields": {
+      "train_id": 324,
+      "seats": 100
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 2,
+    "fields": {
+      "train_id": 124,
+      "seats": 100
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 3,
+    "fields": {
+      "train_id": 864,
+      "seats": 150
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 4,
+    "fields": {
+      "train_id": 111,
+      "seats": 200
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 5,
+    "fields": {
+      "train_id": 222,
+      "seats": 50
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 6,
+    "fields": {
+      "train_id": 491,
+      "seats": 50
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 7,
+    "fields": {
+      "train_id": 834,
+      "seats": 150
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 8,
+    "fields": {
+      "train_id": 414,
+      "seats": 250
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 9,
+    "fields": {
+      "train_id": 224,
+      "seats": 200
+    }
+  },
+  {
+    "model": "trainstable.train",
+    "pk": 10,
+    "fields": {
+      "train_id": 228,
+      "seats": 2
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 1,
+    "fields": {
+      "station_name": "MOSCOW"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 2,
+    "fields": {
+      "station_name": "CHITA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 3,
+    "fields": {
+      "station_name": "PRAHA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 4,
+    "fields": {
+      "station_name": "PARIS"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 5,
+    "fields": {
+      "station_name": "MADRID"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 6,
+    "fields": {
+      "station_name": "LISSABON"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 7,
+    "fields": {
+      "station_name": "MITINO"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 8,
+    "fields": {
+      "station_name": "LIMA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 9,
+    "fields": {
+      "station_name": "AMSTERDAM"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 10,
+    "fields": {
+      "station_name": "BRASILIA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 11,
+    "fields": {
+      "station_name": "VENA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 12,
+    "fields": {
+      "station_name": "ROSTOV"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 13,
+    "fields": {
+      "station_name": "SAMARA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 14,
+    "fields": {
+      "station_name": "VOLGOGRAD"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 15,
+    "fields": {
+      "station_name": "EKATERINBURG"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 16,
+    "fields": {
+      "station_name": "VARNA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 17,
+    "fields": {
+      "station_name": "ANAPA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 18,
+    "fields": {
+      "station_name": "KOROLEV"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 19,
+    "fields": {
+      "station_name": "VENECIA"
+    }
+  },
+  {
+    "model": "trainstable.station",
+    "pk": 20,
+    "fields": {
+      "station_name": "DELI"
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 1,
+    "fields": {
+      "train": 1
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 2,
+    "fields": {
+      "train": 2
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 3,
+    "fields": {
+      "train": 3
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 4,
+    "fields": {
+      "train": 4
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 5,
+    "fields": {
+      "train": 5
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 6,
+    "fields": {
+      "train": 6
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 7,
+    "fields": {
+      "train": 7
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 8,
+    "fields": {
+      "train": 8
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 9,
+    "fields": {
+      "train": 9
+    }
+  },
+  {
+    "model": "trainstable.route",
+    "pk": 10,
+    "fields": {
+      "train": 10
+    }
+  }
+]
