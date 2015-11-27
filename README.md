@@ -41,3 +41,27 @@ python manage.py generate
 python manage.py runserver
 ```
 и тестируем приложение по адресу: localhost:8000/trainstable/search/
+<br>
+Список валидных станций:
+	DELI 
+	VENECIA
+	KOROLEV
+	ANAPA
+	VARNA
+	EKATERINBURG
+	VOLGOGRAD
+	SAMARA
+	ROSTOV
+	VENA
+	BRASILIA
+	AMSTERDAM
+	LIMA
+	MITINO
+	LISSABON
+	MADRID
+	PARIS
+	PRAHA
+	CHITA
+	MOSCOW
+<br>
+Валидная дата - 2015-05-01
